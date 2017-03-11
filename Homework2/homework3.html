@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 50px;
+        }
+
+        ul {
+            height: auto;
+            color: white;
+            line-height: 40px;
+            background-color: #505050;
+        }
+
+        li {
+            padding: 15px 30px 15px 15px;
+            display: inline;
+        }
+
+        #menu { /* Левая колонка*/
+            float: left; /* Состыковка с соседним слоем */
+            width: 240px; /* Ширина слоя */
+            height: 240px;
+            color: black; /* Цвет текста*/
+            /*padding: 15px 15px; !* Поля вокруг текста *!*/
+            /*background: #008000; !* Цвет фона левой колонки *!*/
+            margin-right: 50px;
+        }
+
+        #menu a {
+            padding: 15px 15px; /* Поля вокруг текста */
+
+        }
+
+        #menu table {
+            width: 300px; /* Ширина таблицы */
+            height: 240px;
+            border-collapse: collapse; /* Убираем двойные линии между ячейками */
+            /*background: #778899; !* Цвет фона *!*/
+            /*color: white; !* Цвет текста *!*/
+        }
+        TD, TH {
+            padding: 3px; /* Поля вокруг содержимого таблицы */
+            border: 1px solid black; /* Параметры рамки */
+        }
+
+        .lc { /* Стиль для первой колонки */
+            text-align: left; /* Выравнивание по левому краю */
+            color: black; /* Цвет текста */
+        }
+        #rightcol { /* Правая колонка*/
+            width: 550px; /* Ширина слоя */
+            float: left; /* Состыковка с соседним слоем */
+            padding: 10px; /* Поля вокруг содержимого */
+            background: #e0e0e0; /* Цвет фона правой колонки */
+        }
+    </style>
+</head>
+<body>
+
+<div id="head">
+    <h1>Fitness</h1>
+</div>
+
+<ul>
+    <li>Главная</li>
+    <li>Товары</li>
+    <li>О_нас</li>
+    <li>Контакты</li>
+</ul>
+
+<div id="menu">
+    <table>
+        <tr>
+            <td class="lc">Ноутбуки</td>
+        </tr>
+        <tr>
+            <td class="lc">Планшеты</td>
+        </tr>
+        <tr>
+            <td class="lc">Телефоны</td>
+        </tr>
+        <tr>
+            <td class="lc">Телевизоры</td>
+        </tr>
+        <tr>
+            <td class="lc">Бытовая тезник</td>
+        </tr>
+        <tr>
+            <td class="lc">Автотовары</td>
+        </tr>
+    </table>
+</div>
+
+<div id="content">
+    <img src="123.jpg">
+</div>
+
+</body>
+</html>
