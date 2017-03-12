@@ -10,7 +10,8 @@
         }
 
         ul {
-            height: auto;
+            height: 40px;
+            width: 960px;
             color: white;
             line-height: 40px;
             background-color: #505050;
@@ -37,11 +38,12 @@
         }
 
         #menu table {
-            width: 300px; /* Ширина таблицы */
+            width: 240px; /* Ширина таблицы */
             height: 240px;
             border-collapse: collapse; /* Убираем двойные линии между ячейками */
             /*background: #778899; !* Цвет фона *!*/
             /*color: white; !* Цвет текста *!*/
+            margin-top: 25px;
         }
         TD, TH {
             padding: 3px; /* Поля вокруг содержимого таблицы */
@@ -49,16 +51,49 @@
         }
 
         .lc { /* Стиль для первой колонки */
+            padding: 15px 15px 15px 15px;
             text-align: left; /* Выравнивание по левому краю */
             color: black; /* Цвет текста */
         }
-        #rightcol { /* Правая колонка*/
-            width: 550px; /* Ширина слоя */
-            float: left; /* Состыковка с соседним слоем */
-            padding: 10px; /* Поля вокруг содержимого */
-            background: #e0e0e0; /* Цвет фона правой колонки */
+        #content { /* Правая колонка*/
+            margin: 10px 5px 20px 225px; /* Значения отступов */
+            /*padding: 50px; !* Поля вокруг текста *!*/
         }
+
+        #content img {
+            margin-top: 25px; /* Значения отступов */
+            /*padding: 50px; !* Поля вокруг текста *!*/
+            border: 1px solid black;
+        }
+        #left {
+            text-align: left;
+            padding-left: 70px;
+        }
+        .content {
+            width: 680px;
+            height: 140px;
+        }
+        a {
+            background: #e1e1e1;
+            color: black;
+            padding-top: 10px;
+            padding-right: 105px;
+            padding-left: 15px;
+            padding-bottom: 10px;
+            display: inline-block;
+            margin: -4px;
+        }
+
+        A:link { text-decoration: none; }
+        A:visited { text-decoration: none; }
+        A:active { text-decoration: none; }
+        A:hover {
+            text-decoration: underline ; /* Ссылка подчеркнутая и надчеркнутая */
+            color: black; /* Цвет ссылки */
+        }
+
     </style>
+
 </head>
 <body>
 
@@ -88,7 +123,7 @@
             <td class="lc">Телевизоры</td>
         </tr>
         <tr>
-            <td class="lc">Бытовая тезник</td>
+            <td class="lc">Бытовая техника</td>
         </tr>
         <tr>
             <td class="lc">Автотовары</td>
@@ -97,7 +132,19 @@
 </div>
 
 <div id="content">
-    <img src="123.jpg">
+    <img src="123.jpg" height="400" width="700">
+    <div id="left">
+        <div class="content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <a href="#">Главная</a>
+    <a href="#">Товары</a>
+    <a href="#">О_нас</a>
+    <a href="#">Контакты</a>
+    <a href="#">2014 &copy; All rights reserved</a>
 </div>
 
 </body>

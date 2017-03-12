@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body {
+            background: url("webasia.gif");
+        }
+        .menu {
+            position: relative;
+            overflow: visible;
+            background-color: black;
+            margin: 450px 140px;
+        }
+
+        ul {
+            display: block;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        ul:after {
+            display: block;
+            content: ' ';
+            float: left;
+        }
+        ul.menu > li {
+            float: left;
+            position: relative;
+        }
+        ul.menu > li > a {
+            display: block;
+            padding: 10px 40px 10px 31px;
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+        ul.menu > li > a:hover {
+            background-color: black;
+        }
+        ul.submenu {
+            display: none;
+            position: absolute;
+            width: 130px;
+            top: 37px;
+            left: 0;
+            background-color: white;
+        }
+        ul.submenu > li {
+            display: block;
+        }
+        ul.submenu > li > a {
+            display: block;
+            padding: 10px;
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+        ul.submenu > li > a:hover {
+            text-decoration: underline;
+        }
+        ul.menu > li:hover > ul.submenu {
+            display: block;
+        }
+
+        .fon {
+            width: 1000px;
+            float: left;
+            border: 1px solid black;
+            margin-left: 140px;
+            margin-bottom: 10px;
+        }
+        .leftColumn {
+            width: 20%;
+            background-color: #edeef0;
+            float: left;
+        }
+        .centerColumn {
+            width: 60%;
+            right: 100%;
+            color: white;
+            background-color: #ffffff;
+            float: left;
+        }
+        .rightColumn {
+            width: 20%;
+            background-color: #edeef0;
+            float: left;
+        }
+
+        .footer {
+            clear: both;
+            margin-left: 500px;
+            margin-top: 330px;
+            color: #dee7ee;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<ul class="menu">
+    <li><a href="#">Главная</a> </li>
+    <li><a href="#">Путешествие</a>
+        <ul class="submenu">
+            <li><a href="#">Путешествие 1</a> </li>
+            <li><a href="#">Путешествие 2</a> </li>
+            <li><a href="#">Путешествие 3</a> </li>
+            <li><a href="#">Путешествие 4</a> </li>
+            <li><a href="#">Путешествие 5</a> </li>
+        </ul>
+    </li>
+    <li><a href="#">Услуги</a>
+        <ul class="submenu">
+            <li><a href="#">Услуги 1</a> </li>
+            <li><a href="#">Услуги 2</a> </li>
+            <li><a href="#">Услуги 3</a> </li>
+            <li><a href="#">Услуги 4</a> </li>
+            <li><a href="#">Услуги 5</a> </li>
+        </ul>
+    </li>
+    <li><a href="#">Партнерам</a>
+        <ul class="submenu">
+            <li><a href="#">Партнерам 1</a> </li>
+            <li><a href="#">Партнерам 2</a> </li>
+            <li><a href="#">Партнерам 3</a> </li>
+            <li><a href="#">Партнерам 4</a> </li>
+            <li><a href="#">Партнерам 5</a> </li>
+        </ul>
+    </li>
+    <li><a href="#">Отзывы клиентов</a> </li>
+    <li><a href="#">О нас</a> </li>
+    <li><a href="#">Контакты</a> </li>
+</ul>
+
+<div class="fon"> <!--блок родитель-->
+    <div class="leftColumn">
+        Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans.orem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans
+    </div>
+    <div class="centerColumn">        Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans.orem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans
+    Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans.orem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans
+    Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans.orem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans
+    Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some </div>
+    <div class="rightColumn">
+        Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans.orem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans
+    </div>
+</div>
+
+
+
+<div class="footer">
+    Copyright &copy; asia-holidays.com.2010
+</div>
+
+
+
+
+</body>
+</html>
