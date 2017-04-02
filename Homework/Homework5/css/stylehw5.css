@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../hw5.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: cover; !*картинка занимает всю площадь*!*/
+    background-color: #282828;
+    width: 1215px;
+    height: 1030px;
+    margin-top: 70px;
+}
+#centerLayer1 {
+    margin-left: 5%;
+    width: 100%;
+}
+
+ul {
+    height: 4%;
+    float: right;
+    line-height: 30px;
+    background-color: #075291;
+    margin-top: -70px;
+}
+
+li {
+    padding: 0px 60px 0px 10px;
+    display: inline; /*меню в строку*/
+}
+a {
+    color: #3181be;
+    text-decoration: none;
+}
+a:visited {
+    color: #4eabda;
+}
+a:hover {
+    color: white; /*изменить цвет текста при наведении*/
+    text-decoration: underline;
+    background-color: #4eabda; /*изменить цвет ячейки при наведении*/
+    padding: 10px;
+}
+#centerLayer2 {
+    margin-left: 30%;
+}
+
+.rgb {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.box1 {
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Tahoma, 'DejaVu Serif', Georgia, "Times New Roman", Times, sans-serif;
+    border-bottom: solid;
+}
+.box2 {
+    color: white;
+    line-height: 90px;
+    text-align: center;
+    font-size: 24px;
+}
+ul.hr {
+    background-color: #375090;
+    height: 35px;
+    margin: 0;
+    /*padding: 10px;*/
+}
+ul.hr li {
+    display: inline;
+    color: white;
+}
+p {
+    font-size: 24px;
+    margin: 0px;
+}
+image {
+    background-color: #324b84;
+    color: white;
+    font-family: Tahoma, Letter Faces, Arial, sans-serif;
+    font-size: 14px;
+}
+button {
+    background-color: #4eabda;
+    color: white;
+    font-family: Tahoma, Letter Faces, Arial, sans-serif;
+    font-size: 24px;
+    border-color: #4eabda;
+    padding: 5px 10px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    color: #a7a7a7;
+    font-size: 14px;
+    font-family: Tahoma, Letter Faces, Arial, sans-serif;
+    text-indent: 20px;
+}
+span {
+    font-size: 14px;
+    font-family: Tahoma, Letter Faces, Arial, sans-serif;
+    color: #a7a7a7;
+    margin-top: -100px;
+}

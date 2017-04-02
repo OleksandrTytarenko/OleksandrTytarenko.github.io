@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("webasia.gif");
+}
+.menu {
+    position: relative;
+    overflow: visible;
+    background-color: black;
+    margin: 450px 140px;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*ul:after {*/
+    /*display: block;*/
+    /*content: ' ';*/
+    /*float: left;*/
+/*}*/
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px 40px 10px 31px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 130px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.box {
+    width: 1000px;
+    float: left;
+    border: 1px solid black;
+    margin-left: 140px;
+    margin-bottom: 10px;
+}
+.leftColumn {
+    width: 20%;
+    background-color: #edeef0;
+    float: left;
+}
+.centerColumn {
+    width: 60%;
+    right: 100%;
+    color: white;
+    background-color: #ffffff;
+    float: left;
+}
+.rightColumn {
+    width: 20%;
+    background-color: #edeef0;
+    float: left;
+}
+
+.footer {
+    clear: both;
+    margin-left: 500px;
+    margin-top: 330px;
+    color: #dee7ee;
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    min-width: 1100px;
+    margin-top: 18px;
+    margin-left: 47px;
+
+}
+.box1 {
+    float: left;
+}
+p {
+    float: right;
+    color: #5e696d;
+    font-size: 21px;
+    padding: 0 5px;
+}
+.box2 {
+    float: left;
+    background-color: #1b5b7c;
+    width: 494px;
+    height: 27px;
+    margin-left: 6px;
+    margin-top: -4px;
+}
+
+
+input.b1 {
+    background-color: #1b5b7c;
+    color: white;
+    border: none;
+}
+
+#user1 {
+    width: 114px;
+    height: 16px;
+    font-size: 10px;
+}
+#user {
+    width: 114px;
+    height: 16px;
+    font-size: 10px;
+}
+
+.menu1 {
+    float: right;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 5px 5px 0;
+}
+button {
+    width: 80px;
+    padding: 2px 1px 1px 1px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: -1px;
+}
+
+.fig {
+    margin-left: 47px;
+    margin-top: 12px;
+}

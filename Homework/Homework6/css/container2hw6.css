@@ -1,0 +1,173 @@
+#container2 {
+    width: 910px;
+    margin-left: 34px;
+    margin-top: 151px;
+}
+aside {
+    float: left;
+    width: 185px;
+    margin-right: 0px;
+    margin-left: -10px;
+    margin-top: 16px;
+}
+form {
+    margin-top: -1px;
+}
+
+#container2 form button {
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.4); /* Тень */
+    width: 183px;
+}
+
+#container2 p img {
+    margin-top: 3px;
+    margin-bottom: -4px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#container2 p {
+    color: #114165;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 9px;
+    padding: 0px 10px 0px 0px;
+
+}
+#container2 div{
+    margin-top: 9px;
+    line-height: 14px;
+}
+#container2 div button {
+    box-shadow: none; /* Тень */
+    width: 150px;
+    height: 28px;
+    margin-top: 1px;
+    line-height: 20px;
+    margin-left: 18px;
+}
+#container2 div img{
+    float: left;
+    margin-top: -3px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+#container2 div p {
+    float: left;
+    color: #114165;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    margin-top: -18px;
+    margin-bottom: 0px;
+    margin-left: 31px;
+    margin-right: 90px;
+}
+#container2 ul {
+    margin-left: 73px;
+    margin-top: 0px;
+    line-height: 6px;
+}
+#container2 a {
+    color: #465961;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: -6px;
+    margin-top: 0px;
+    line-height: 14px;
+}
+#container2 a:hover {
+    width: 125px;
+    color: #0c3256;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+#gradient {
+    float: left;
+    width: 526px;
+    height: 630px;
+    background: #e4e7e8;
+    background: linear-gradient(to bottom, #e4e7e8, #93a7b0);
+    margin-left: 24px;
+    margin-bottom: 40px;
+}
+#gradient figure {
+    float: left;
+    width: 149px;
+    height: 207px;
+    margin-left: 19px;
+    margin-top: 8px;
+    margin-bottom: -13px;
+}
+#gradient figcaption {
+    float: left;
+    color: #206988;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    width: 141px;
+    text-align: center;
+    margin-top: 11px;
+    margin-bottom: -6px;
+    padding: 0px;
+}
+#gradient span {
+    color: black;
+    font-size: 13px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    margin-left: 30px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    line-height: 22px;
+}
+#gradient blockquote {
+    color: #114165;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    width: 141px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 9px;
+    line-height: 26px;
+}
+#gradient img {
+    margin-left: 4px;
+    padding: 5px 30px 5px 30px;
+    background: white;
+    border: 1px;
+    border-style: solid;
+    border-color: #114165;
+    border-radius: 10px;
+}
+
+aside span {
+    color: white;
+}
+aside input {
+    margin-left: 44px;
+}
+aside input label {
+    font-size: 10px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: 5px;
+    line-height: 5px;
+}
+input #brend {
+    font-size: 10px;
+}
+.new {
+    color: white;
+    font-size: 11px;
+    width: 80px;
+    height: 25px;
+    background-color: #0e3a5e;
+    background: linear-gradient(to top, #0e3a5e, #1f6585);
+    margin-top: 20px;
+    border-radius: 20px;
+}

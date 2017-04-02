@@ -1,0 +1,198 @@
+#container1 {
+    width: 910px;
+    margin-left: 47px;
+    margin-top: 12px;
+}
+#container1 a {
+    float: right;
+    color: #154467;
+}
+#container1 .colortext {
+    margin-left: 12px;
+    color: white;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+#sidebar1 {
+    float: left;
+    width: 413px;
+    height: 135px;
+    border: 1px;
+    border-style: solid;
+    border-color: #c7ccce;
+    border-radius: 20px;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.4); /* Тень */
+}
+.box3 {
+    width: 197px;
+    height: 119px;
+    padding: 0;
+    margin-right: 0px;
+    float: left;
+    line-height: 9px;
+}
+.box3 label select {
+    margin-left: 19px;
+    width: 78px;
+    height: 17px;
+}
+.box3 p5 {
+    margin-left: 12px;
+    color: #c7ccce;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+.box4 label select {
+    margin-left: 32px;
+    width: 65px;
+    height: 17px;
+}
+.box4 {
+    float: left;
+    width: 197px;
+    line-height: 6px;
+}
+.box4 p5 {
+    margin-left: 12px;
+    color: #c7ccce;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#sidebar1 h1 {
+    color: #154467;
+    font-size: 12px;
+    font-family: "Arial Black", sans-serif;
+    text-align: center;
+}
+.box4 legend {
+    margin-left: 160px;
+}
+.box3 legend {
+    margin-left: 12px;
+}
+#sidebar1 legend {
+    color: #154467;
+    font-size: 10px;
+    font-family: "Arial Black", sans-serif;
+}
+#sidebar1 label {
+    margin-left: 12px;
+    color: black;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#sidebar11.html2 {
+    line-height: 29px;
+    font-size: 10px;
+}
+
+#sidebar2 {
+    float: left;
+    width: 190px;
+    height: 135px;
+    border: 1px;
+    border-style: solid;
+    border-color: #c7ccce;
+    border-radius: 20px;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.4); /* Тень */
+    margin-left: 16px;
+}
+
+#sidebar2 legend {
+    color: #154467;
+    font-size: 12px;
+    font-family: "Arial Black", sans-serif;
+    margin-left: 12px;
+}
+#sidebar2 label {
+    margin-left: 12px;
+    color: black;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+#sidebar2 label1 {
+    margin-left: 12px;
+    color: white;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+#sidebar2 select {
+    width: 47px;
+    height: 17px;
+}
+#sidebar2 li {
+    line-height: 20px;
+}
+
+#sidebar3 {
+    float: left;
+    width: 263px;
+    height: 135px;
+    border: 1px #c7ccce solid;
+    border-radius: 20px;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.4); /* Тень */
+    margin-left: 16px;
+}
+.box5 {
+    width: 160px;
+    height: 90px;
+    padding: 0;
+    float: left;
+    margin-left: 12px;
+}
+.box6 {
+    width: 90px;
+    line-height: 9px;
+    padding: 0;
+    float: left;
+    margin-top: -16px;
+    border-left: 1px #c7ccce solid;
+}
+#sidebar3 legend {
+    color: #154467;
+    font-size: 12px;
+    font-family: "Arial Black", sans-serif;
+    margin-left: 12px;
+}
+#sidebar3 label {
+    text-align: left;
+    color: black;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#sidebar3 .box6 label {
+    margin-left: 12px;
+    color: black;
+    font-size: 10px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+}
+
+#sidebar3 select {
+    width: 56px;
+    height: 17px;
+}
+#sidebar3 li {
+    line-height: 60px;
+}
+.box5 p5 {
+    margin-left: 0px;
+    color: #c7ccce;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+.box6 p5 {
+    margin-left: 12px;
+    color: #c7ccce;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+.box6 select {
+    margin-left: 12px;
+}
+#sidebar3 a {
+    float: right;
+    color: #154467;
+}
