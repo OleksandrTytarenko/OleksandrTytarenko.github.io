@@ -1,0 +1,25 @@
+.logo {
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.logo__fifure {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper__footer {
+    background: url("../img/footer320.jpg");
+    background-size: cover;
+}
+.footer__p {
+    color: #f7f7f8;
+    font-family: OpenSans, sans-serif;
+    font-size: 0.625rem;
+}
+.footer__p:after {
+    content: "Pingbull AS";
+    font-family: LeagueGothic, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+

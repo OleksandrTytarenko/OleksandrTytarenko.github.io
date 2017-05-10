@@ -1,0 +1,46 @@
+@media screen and (min-width: 480px) {
+
+    .shadow {
+        position: absolute;/*вырываем блок из общего потока*/
+        width: 100%;
+        height: 18.5625rem;;
+        margin-top: 6.625rem;
+        z-index: 0;/*делаем наш блок подложкой под остальной контэнт*/
+        background-color: rgba(0, 0, 0, 0.1);/*прозрачный темный фон*/
+        transition: 0.5s all;
+    }
+    .header__768 {
+        display: none;
+    }
+    header .slider__img {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        transition: 0.5s all;
+    }
+    .logo__320, .logo__980 {
+        display: none;
+    }
+    figure .logo__480 {
+        display: flex;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 30rem;
+    }
+    .footer__a {
+        color: white;
+        font-size: .5rem;
+        font-family: LeagueGothic, sans-serif;
+        text-decoration: none;
+    }
+
+
+}

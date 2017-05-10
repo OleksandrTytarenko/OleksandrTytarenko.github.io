@@ -1,0 +1,87 @@
+@media screen and (min-width: 768px) {
+    .side {
+        display: none;
+    }
+    header h1 {
+        display: flex;
+    }
+    .header__768 {
+        display: flex;
+    }
+    .menu__768 {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .link__768 {
+        color: white;
+        font-size: 1rem;
+        font-family: LeagueGothic, sans-serif;
+        text-decoration: none;
+        padding-right: 1rem;
+    }
+    .link__768:hover {
+        text-decoration: underline #edbfff;
+    }
+
+    .slider__item {
+        flex-direction: column;
+    }
+
+    .slider__news {
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+    }
+    section .purple {
+        display: flex;
+        width: 100%;
+    }
+    .white__gray {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .white__item {
+        flex: 0 0 45%;
+    }
+    .sprite__item {
+        flex: 0 0 45%;
+    }
+    figure .logo__480 {
+        display: none;
+    }
+
+    figure .logo__980 {
+        display: flex;
+    }
+    .green {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #ececec;
+    }
+    .green__article {
+        flex: 0 0 30%;
+    }
+    .green__p {
+        font-family: LeagueGothic, sans-serif;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+    .footer__ul {
+        justify-content: flex-start;
+    }
+    .footer__a {
+        padding-right: .5rem;
+    }
+    .footer__p {
+        align-self: flex-end;
+    }
+    div .h6 {
+        display: none;
+    }
+
+
+}

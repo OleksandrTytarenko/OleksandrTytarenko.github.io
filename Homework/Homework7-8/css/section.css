@@ -1,0 +1,41 @@
+
+.wrapper__section {
+    background: linear-gradient(to bottom, #745182, #36293e);
+    background-size: cover;
+}
+.purple__article {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.purple__div {
+    width: 72%;
+    height: auto;
+    padding: .3125rem 0 .3125rem 0;
+}
+.purple--img {
+    padding: 0 1.1875rem 0 1.1875rem;
+}
+.purple__h1 {
+    color: white;
+    font-size: 1rem;
+    font-family: LeagueGothic, sans-serif;
+    padding: .1875rem;
+}
+.purple--text {
+    color: white;
+    font-size: .75rem;
+    font-family: OpenSans, sans-serif;
+    padding: .1875rem;
+    overflow: hidden;
+    line-height: 1.75rem;
+    height: 5.375rem;
+}
+.purple__more {
+    float: right;
+    color: white;
+    font-size: 1rem;
+    font-family: LeagueGothic, sans-serif;
+    text-decoration: none;
+}

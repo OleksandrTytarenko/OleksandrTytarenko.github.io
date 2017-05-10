@@ -1,0 +1,87 @@
+
+.wrapper__grey  {
+    background: #f9f9f9;
+    background-size: cover;
+    clear: both;
+}
+
+
+.white__user {
+    display: flex;
+    width: 100%;
+    padding: .3125rem 0 0 0;
+    background-color: #ffffff;
+}
+.white__img {
+    margin-left: -1rem;
+}
+
+div .white__div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 0 1rem;
+}
+.white__item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.white--h1 {
+    color: #454545;
+    font-family: LeagueGothic, sans-serif;
+    font-size: 1.5rem;
+}
+.white--span {
+    color: #edbfff;
+    font-family: LeagueGothic, sans-serif;
+    font-size: 1.5rem;
+}
+.white--p {
+    width: 100%;
+    overflow: hidden;
+    height: 9.4375rem;
+}
+.white__form {
+    display: flex;
+    justify-content:center;
+    padding: .5rem;
+}
+
+.sprite__item {
+    display: flex;
+    width: 100%;
+}
+
+.sprite__h1 {
+    color: #454545;
+    font-family: LeagueGothic, sans-serif;
+    font-size: 1.5rem;
+}
+.sprite__div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+div .sprite1__div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 0 5px;
+}
+.sprite__h2 {
+    color: #454545;
+    font-family: LeagueGothic, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.more__a {
+    float: right;
+    color: #454545;
+    font-family: LeagueGothic, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-decoration: none;
+}

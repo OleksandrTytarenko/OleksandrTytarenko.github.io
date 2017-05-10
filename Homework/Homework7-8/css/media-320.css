@@ -1,0 +1,115 @@
+@media screen and (min-width: 320px) {
+
+
+    .header__navbar {
+        flex-direction: column;
+    }
+    .header__768 {
+        display: none;
+    }
+    .slider__item {
+        display: flex;
+        width: 100%;
+    }
+
+    .slider__news {
+        display: none;
+    }
+
+    header .slider__img {
+        display: none;
+    }
+    .logo__980, .logo__480 {
+        display: none;
+    }
+    .green {
+        display: none;
+    }
+    .menu__list a {
+        color: white;
+        font-size: 1rem;
+        font-family: LeagueGothic, sans-serif;
+        text-decoration: underline #edbfff;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+
+
+    /*Внешний вид меню*/
+
+    .side {
+        width: 6.771875rem;
+        height: auto;
+        margin: 0 auto;/*расположение по центру*/
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu a {
+        display: block;/*задаем границы меню по границам блока div-side*/
+        transition: 0.5s all;/*плавность перехода*/
+        text-align: center;
+    }
+
+    .menu a:hover {
+        border-radius: .5rem;
+        background: #29202f;
+        padding: .1875rem;/*плавающее меню*/
+    }
+
+    /*всплывающее меню*/
+
+    .menu__list {
+        position: relative;/*привязываем к меню всплывающее меню*/
+    }
+    .menu__drop {
+        position: absolute;/*что бы всплываюшее мению не смещало другие блоки*/
+        width: 100%;/*ширина всплывающего меню будет на всю ширину блока div-side*/
+        top: -9999em;/*убираем подменю за пределы страницы, что бы оно не появлялось при наведении на границы div-side*/
+        opacity: 0;/*скрываем всплывающее меню через прозрачность*/
+    }
+    .menu__list:hover .menu__drop {
+        border-radius: .5rem;
+        background: #3d3146;
+        background: linear-gradient(to top, #3d3146, #3b2f43);
+        opacity: 1;/*делаем видимым подменю при наведении*/
+        top: 1.5rem;/*возвращаем подменю в границы div-side*/
+    }
+
+    .slider {
+        margin-top: 2.5rem;
+    }
+
+    section .purple {
+        width: 20rem;
+    }
+    .white__gray {
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        padding: 4.375rem 0 0 0;
+    }
+
+    .sprite__item {
+        flex-direction: column;
+    }
+
+
+
+    .footer__ul {
+        display: none;
+    }
+    .footer__p {
+        padding: 0.625rem;
+    }
+
+
+}
